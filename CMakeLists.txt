@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.2)
-project(testbin)
+project(testprog)
 add_subdirectory(dep/testlib)
 
 add_executable(${PROJECT_NAME} main.cpp)
